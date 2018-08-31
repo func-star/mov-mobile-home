@@ -49,6 +49,9 @@ export default class DefaultLayout extends Component {
 						{this.props.children}
 					</div>
 					<Iframe name="monajsIframe" className={classNames({ 'page-iframe-hide': this.showIframe })} />
+					<a href="https://github.com/func-star/mov-mobile/issues" target="_blank" className="page-feedback pos-f">
+						<i className="iconfont icon-feedback"></i>
+					</a>
 				</div>
 			</div>
 		)

@@ -1,16 +1,18 @@
 # 快速使用
 
+✨✨这是 Mona 系列的 Vue 实现，服务与移动端 H5 产品。
+
 ## 安装
 
 ### NPM
 
 ```bash
-npm i mor-mobile --save
+npm i mov-mobile --save
 ```
 
-### 引入组件
+### 按需加载
 
-* 使用 babel-plugin-import
+- 使用 babel-plugin-import（推荐用法）
 
 `babel-plugin-import` 是一款 `babel` 插件，它会在编译过程中将 `import` 的写法自动转换为按需引入的方式
 
@@ -20,20 +22,55 @@ npm i babel-plugin-import -dev
 ```
 
 ```
-// 在 .babelrc 中添加插件配置
+.babelrc or babel-loader option
 {
   "plugins": [
     ["import", {
-      "libraryName": "mor-mobile",
+      "libraryName": "mov-mobile",
       "libraryDirectory": "lib",
+      "style": true // 加载 less 文件
     }]
   ]
 }
 ```
 
-✨✨接着你可以在代码中直接引入 Mor-mobile 组件
+- 手动引入
+
+```js
+import Modal from 'mov-mobile/lib/modal';  // 加载 JS
+import 'mov-mobile/lib/modal/style';         // 加载 LESS
+```
+
+✨✨你也可以为`mov-mobile` 起一个别名，让代码变的更好看一点
 
 ```
-import { Row, Col } from 'mor-mobile';
+// webpack 添加解析配置
+...
+resolve: {
+	extensions: ['.js', '.jsx'],
+	alias: {
+		'mona': path.resolve('./node_modules/mov-mobile')
+	}
+}
+...
+```
+```
+.babelrc or babel-loader option
+{
+  "plugins": [
+    ["import", {
+      "libraryName": "mona",
+      "libraryDirectory": "lib",
+      "style": true // 加载 less 文件
+    }]
+  ]
+}
+```
+
+### 开始使用
+接着你可以在代码中直接引入 Mor-mobile 组件
+
+```js
+import { Row, Col } from 'mona';
 ```
 

@@ -12,7 +12,7 @@ class Components {
 				modal: { name: 'Modal - 弹框', url: 'modal' },
 				listView: { name: 'ListView - 瀑布流容器', url: 'list-view' },
 				tabs: { name: 'Tabs - 切换面板', url: 'tabs' },
-				swiper: { name: 'Swiper - 轮播组件', url: 'swiper' },
+				carousel: { name: 'Carousel - 轮播组件', url: 'carousel' },
 				loading: { name: 'Loading - 加载', url: 'loading' },
 				popup: { name: 'popup - 弹层', url: 'popup' },
 				datePicker: { name: 'DatePicker - 时间日期事件选择器', url: 'date-picker' },

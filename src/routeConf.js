@@ -11,13 +11,18 @@ const routeList = {
 			'how-to-use': ComponentView
 		}
 	}, {
+		layout: DefaultLayout,
+		routes: {
+			'custom-theme': ComponentView
+		}
+	}, {
 		routes: {
 			'404': NoMatch
 		}
 	}]
 }
 
-const componentList = ['layout', 'toast', 'modal', 'list-view', 'loading', 'tabs', 'swiper', 'popup', 'date-picker', 'date-picker-range', 'modal-select', 'picker-select', 'hammer', 'picker-view']
+const componentList = ['layout', 'toast', 'modal', 'list-view', 'loading', 'tabs', 'carousel', 'popup', 'date-picker', 'date-picker-range', 'modal-select', 'picker-select', 'hammer', 'picker-view']
 
 componentList.forEach(v => {
 	let routes = {}
