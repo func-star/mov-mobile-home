@@ -1,5 +1,7 @@
 # PickerSelect
 
+✨✨弹框数据滚动选择器
+
 ## 使用指南
 ```
 import {PickerSelect} from 'mona'

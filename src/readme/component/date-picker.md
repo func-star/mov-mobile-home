@@ -1,5 +1,7 @@
 # DatePicker
 
+✨✨省心实用的时间选择组件
+
 ## 使用指南
 ```
 import {DatePicker} from 'mona'

@@ -1,5 +1,7 @@
 # Modal
 
+✨✨ 自定义程度高的弹窗组件
+
 ## 使用指南
 ```
 import {Modal} from 'mona'

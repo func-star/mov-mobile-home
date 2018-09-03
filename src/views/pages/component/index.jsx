@@ -1,19 +1,20 @@
-import React, { Component } from 'react'
-import Router from 'moreact-router'
-import Readme from 'readme/readme'
+import React, {Component} from 'react';
+import Router from 'moreact-router';
+import Readme from 'readme/readme';
 
 export default class Layout extends Component {
-	componentWillMount () {
-		this.readme = Readme[Router.current.path]
+	componentWillMount() {
+		this.readme = Readme[Router.current.path];
 		Router.addEventListener('onChange', info => {
-			this.readme = Readme[info.path]
-			this.setState({})
-		})
+			console.log(info.path);
+			this.readme = Readme[info.path];
+			this.setState({});
+		});
 	}
-	
-	render () {
+
+	render() {
 		return (
-			<div className="mona-mobile-markdown" dangerouslySetInnerHTML={{ __html: this.readme }}></div>
-		)
+			<div className="mona-mobile-markdown" dangerouslySetInnerHTML={{__html: this.readme}}></div>
+		);
 	}
 }

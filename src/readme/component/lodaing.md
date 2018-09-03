@@ -1,5 +1,7 @@
 # Loading
 
+✨✨好看的加载中组件
+
 ## 使用指南
 ```
 import {Loading} from 'mona'

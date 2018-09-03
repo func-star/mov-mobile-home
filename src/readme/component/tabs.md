@@ -1,5 +1,7 @@
 # Tabs
 
+✨✨支持手势滑动的tabs组件
+
 ## 使用指南
 ```
 import {Tabs} from 'mona'

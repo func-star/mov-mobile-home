@@ -1,5 +1,7 @@
 # ModalSelect
 
+✨✨弹框数据选择器
+
 ## 使用指南
 ```
 import {ModalSelect} from 'mona'

@@ -1,5 +1,7 @@
 # Toast
 
+✨✨ 一款带友好图标提示的消息组件
+
 ## 使用指南
 ```
 import {Toast} from 'mona'

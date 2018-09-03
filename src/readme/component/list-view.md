@@ -1,5 +1,7 @@
 # ListView
 
+✨✨ 具有手动下拉刷新哦
+
 ## 使用指南
 ```
 import {ListView} from 'mona'

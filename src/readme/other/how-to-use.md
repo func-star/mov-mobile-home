@@ -1,6 +1,6 @@
 # 快速使用
 
-✨✨这是 Mona 系列的 Vue 实现，服务与移动端 H5 产品。
+✨✨这是 Mona 系列的 Vue 实现，服务于移动端 H5 产品。
 
 ## 安装
 
@@ -47,7 +47,7 @@ import 'mov-mobile/lib/modal/style';         // 加载 LESS
 // webpack 添加解析配置
 ...
 resolve: {
-	extensions: ['.js', '.jsx'],
+	extensions: ['.js', '.vue'],
 	alias: {
 		'mona': path.resolve('./node_modules/mov-mobile')
 	}

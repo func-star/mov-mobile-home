@@ -1,5 +1,7 @@
 # Carousel
 
+✨✨自定义程度高的轮播组件
+
 ## 使用指南
 ```
 import {Carousel} from 'mona'

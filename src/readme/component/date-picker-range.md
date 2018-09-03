@@ -1,5 +1,7 @@
 # DatePickerRange
 
+✨✨ 便捷的时间范围选择器
+
 ## 使用指南
 ```
 import {DatePickerRange} from 'mona'
