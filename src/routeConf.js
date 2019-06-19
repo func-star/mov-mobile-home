@@ -1,6 +1,6 @@
 import DefaultLayout from 'views/layout/default'
 import NoMatch from 'pages/noMatch'
-import Home from 'pages/home'
+import Yyn from 'pages/yyn'
 import ComponentView from 'pages/component'
 
 const routeList = {
@@ -18,6 +18,10 @@ const routeList = {
 	}, {
 		routes: {
 			'404': NoMatch
+		}
+	}, {
+		routes: {
+			'yyn': Yyn
 		}
 	}]
 }
