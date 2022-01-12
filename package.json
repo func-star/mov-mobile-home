@@ -58,7 +58,7 @@
 		"classnames": "2.2.5",
 		"es6-promise": "3.2.1",
 		"highlight.js": "^9.12.0",
-		"markdown-it": "^8.4.2",
+		"markdown-it": "^12.3.2",
 		"moment": "^2.18.1",
 		"mona-events": "0.0.5",
 		"moreact-router": "^0.3.1",
